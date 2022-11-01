@@ -189,3 +189,28 @@
 
     100%{ transform: rotate(0)}
 }
+
+/*ex12*/
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: top12 2s linear;
+}
+
+@keyframes  top12{ 
+    0%{left: 10%; }
+    50%{left: 65%;}
+    100%{left: 10%;}
+    
+}
+
+
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom12 2s linear;
+}
+
+@keyframes bottom12{
+    0%{right: 20%; }
+    50%{right: 65%;}
+    100%{right: 20%;}
+}
