@@ -178,3 +178,14 @@
 
 /*ex11*/
 
+.ex-11-icon:hover{
+    animation: rotate75 2s linear;
+}
+
+@keyframes rotate75{
+    0%{transform: rotate(0)}
+    
+    75%{ transform: rotate(300deg)}
+
+    100%{ transform: rotate(0)}
+}
